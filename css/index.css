@@ -16,7 +16,14 @@ body {
 img {
   width: 13%;
   margin-top: 90px;
+  transition: all 200ms;
   cursor: pointer;
+}
+
+img:hover{
+  padding: 10px;
+  border: 6px dotted rebeccapurple;
+  
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -31,10 +38,18 @@ img {
 }
 
 img {
-  width: 16%;
   
+  width: 16%;
   cursor: pointer;
 }
+
+img:hover{
+  padding: 10px;
+  border: 6px dotted rebeccapurple;
+  
+}
+
+
 
 h1{
   font-size: 20px;
@@ -57,6 +72,11 @@ img {
   cursor: pointer;
 }
 
+img:hover{
+  padding: 10px;
+  border: 6px dotted rebeccapurple;
+  
+}
 
 h1{
   font-size: 16px;
