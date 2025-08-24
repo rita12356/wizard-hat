@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: "Arial";
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+}
+
+img {
+  width: 13%;
+  margin-top: 90px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+
+  .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+img {
+  width: 16%;
+  
+  cursor: pointer;
+}
+
+h1{
+  font-size: 20px;
+}
+
+}
+
+@media (max-width: 767px) {
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+img {
+  width: 50%;
+  
+  cursor: pointer;
+}
+
+
+h1{
+  font-size: 16px;
+}
+   
+}
+
