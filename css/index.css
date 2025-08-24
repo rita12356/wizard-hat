@@ -14,7 +14,7 @@ body {
 }
 
 img {
-  width: 13%;
+  width: 15%;
   margin-top: 60px;
   transition: all 200ms;
   cursor: pointer;
@@ -67,7 +67,7 @@ h1{
 }
 
 img {
-  width: 50%;
+  width: 40%;
   
   cursor: pointer;
 }
