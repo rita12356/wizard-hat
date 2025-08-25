@@ -1,8 +1,10 @@
+// рандомные сообщения.
 function getRandomInt(min, max) {
     let number = Math.floor(Math.random() * (max - min)) + min;
     return number;
 }
 
+// котейнер шляпы и вывод сообщений.
 let hat = document.querySelector(`.hat`);
 let result = document.querySelector(`.result`);
 let messages = [

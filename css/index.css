@@ -14,11 +14,28 @@ body {
 }
 
 img {
-  width: 15%;
+  width: 13%;
   margin-top: 60px;
   transition: all 200ms;
   cursor: pointer;
 }
+
+img:hover{
+  padding: 10px;
+  border: 6px dotted rebeccapurple;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+}
+
+
 
 img:hover{
   padding: 10px;
@@ -38,18 +55,10 @@ img:hover{
 }
 
 img {
-  
   width: 16%;
+  
   cursor: pointer;
 }
-
-img:hover{
-  padding: 10px;
-  border: 6px dotted rebeccapurple;
-  
-}
-
-
 
 h1{
   font-size: 20px;
@@ -72,11 +81,6 @@ img {
   cursor: pointer;
 }
 
-img:hover{
-  padding: 10px;
-  border: 6px dotted rebeccapurple;
-  
-}
 
 h1{
   font-size: 16px;
